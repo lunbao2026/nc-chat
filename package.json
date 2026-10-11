@@ -1,0 +1,13 @@
+{
+  name nc-chat,
+  version 1.0.0,
+  description nC Chat - 整洁聊天工具,
+  main server.js,
+  scripts {
+    start node server.js
+  },
+  dependencies {
+    express ^4.18.2,
+    ws ^8.14.2
+  }
+}
